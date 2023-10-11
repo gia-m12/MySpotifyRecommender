@@ -25,7 +25,7 @@ for item in results['items']:
 print()
 count = 1
 print("Users Top 5 Genres")
-results = sp.current_user_top_artists(time_range='short_term', limit=40)
+results = sp.current_user_top_artists(time_range='short_term', limit=50)
 for item in results['items']:
     if len(item['genres']) == 0:
         continue
